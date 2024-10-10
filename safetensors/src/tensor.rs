@@ -7,7 +7,7 @@ use std::fs::File;
 use std::io::{BufWriter, Write};
 use std::path::Path;
 
-const MAX_HEADER_SIZE: usize = 100_000_000;
+const MAX_HEADER_SIZE: usize = 1024*1024*1024;
 
 /// Possible errors that could occur while reading
 /// A Safetensor file.
